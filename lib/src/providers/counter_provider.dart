@@ -1,14 +1,15 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
-import 'counter_store.dart';
+import '../stores/counter_store.dart';
 
-class CounterController with ChangeNotifier {
-  CounterStore store;
+class CounterProvider with ChangeNotifier {
+  final CounterStore store;
 
-  CounterController({
+  CounterProvider({
     required this.store,
   });
+  
   void increment() {
     store.number++;
     notifyListeners();
