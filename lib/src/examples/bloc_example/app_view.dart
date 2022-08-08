@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'bloc_app.dart';
+import 'theme_cubit.dart';
 
 class AppView extends StatelessWidget {
   /// {@macro app_view}
