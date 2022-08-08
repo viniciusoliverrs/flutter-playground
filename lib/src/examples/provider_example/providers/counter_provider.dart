@@ -1,7 +1,8 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
-import '../stores/counter_store.dart';
+import '../../../core/stores/counter_store.dart';
+
 
 class CounterProvider with ChangeNotifier {
   final CounterStore store;

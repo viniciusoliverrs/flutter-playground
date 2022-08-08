@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:playground_app/src/providers/counter_provider.dart';
 import 'package:provider/provider.dart';
 
+import '../providers/counter_provider.dart';
 import 'display_page.dart';
 
 class HomePage extends StatelessWidget {

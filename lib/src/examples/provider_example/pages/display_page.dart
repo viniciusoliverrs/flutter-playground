@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:playground_app/src/providers/counter_provider.dart';
 import 'package:provider/provider.dart';
+
+import '../providers/counter_provider.dart';
 
 class DisplayPage extends StatelessWidget {
   const DisplayPage({Key? key}) : super(key: key);
