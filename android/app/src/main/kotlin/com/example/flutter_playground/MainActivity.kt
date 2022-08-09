@@ -1,4 +1,4 @@
-package com.example.playground_app
+package com.example.flutter_playground
 
 import io.flutter.embedding.android.FlutterActivity
 

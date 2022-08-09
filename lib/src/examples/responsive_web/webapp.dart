@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:playground_app/src/examples/provider_example/pages/home_page.dart';
+
+import 'ui/pages/home/home_page.dart';
 
 class WebApp extends StatelessWidget {
   const WebApp({Key? key}) : super(key: key);

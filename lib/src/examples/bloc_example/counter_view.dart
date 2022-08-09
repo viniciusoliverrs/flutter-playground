@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:playground_app/src/examples/bloc_example/theme_cubit.dart';
 
 import 'bloc_app.dart';
+import 'theme_cubit.dart';
 
 class CounterView extends StatelessWidget {
   /// {@macro counter_view}

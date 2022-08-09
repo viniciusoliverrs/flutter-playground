@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:playground_app/src/examples/bloc_example/theme_cubit.dart';
 
 import 'app_view.dart';
 import 'counter_view.dart';
+import 'theme_cubit.dart';
 
 class AppBlocObserver extends BlocObserver {
   @override
