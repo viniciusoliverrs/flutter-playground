@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'src/examples/bloc_example/bloc_app.dart';
+import 'src/examples/qrcode_reader/qrcode.dart';
 
-void main() => BlocOverrides.runZoned(
-      () => runApp(const BlocApp()),
-      blocObserver: AppBlocObserver(),
-    );
+// void main() => BlocOverrides.runZoned(
+//       () => runApp(const BlocApp()),
+//       blocObserver: AppBlocObserver(),
+//     );
+
+void main() => runApp(const MaterialApp(home: MyHome()));
