@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/src/examples/getx/views/second_view.dart';
+import 'package:flutter_playground/src/examples/getx/views/todo_view.dart';
 import 'package:get/get.dart';
 
 import '../controllers/home_controller.dart';
@@ -55,7 +55,7 @@ class HomeView extends StatelessWidget {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => Get.to(const SecondView()),
+        onPressed: () => Get.to(TodoView()),
         child: const Icon(Icons.navigate_next),
       ),
     );
