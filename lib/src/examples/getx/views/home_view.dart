@@ -27,6 +27,20 @@ class HomeView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('GetX'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.dark_mode),
+            onPressed: () {
+              Get.changeTheme(
+                ThemeData(
+                  brightness: Theme.of(context).brightness == Brightness.dark
+                      ? Brightness.light
+                      : Brightness.dark,
+                ),
+              );
+            },
+          ),
+        ],
       ),
       body: Column(
         children: [
