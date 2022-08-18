@@ -1,7 +1,4 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
-
 import 'package:flutter/material.dart';
-
 import 'carousel_indicator.dart';
 import 'carousel_item.dart';
 
@@ -32,10 +29,11 @@ class _CarouselState extends State<Carousel> {
             itemCount: widget.images.length,
             controller: widget.pageController,
             scrollBehavior: const ScrollBehavior(),
+            pageSnapping: true,
             onPageChanged: (page) => setState(() => currentView = page),
             itemBuilder: (_, index) {
               return CarouselItem(
-                imageUrl: widget.images[index],
+                imageUrl: index.toString(),//widget.images[index],
                 active: (index == currentView),
               );
             },

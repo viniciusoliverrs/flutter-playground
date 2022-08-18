@@ -20,7 +20,9 @@ class CarouselIndicator extends StatelessWidget {
       children: [
         for (int i = 0; i < totalViews; i++)
           GestureDetector(
-            onTap: () => controller.jumpToPage(i),
+            onTap: () => controller.animateToPage(i,
+                curve: Curves.linear,
+                duration: const Duration(milliseconds: 500)),
             child: Container(
               width: 10,
               height: 10,

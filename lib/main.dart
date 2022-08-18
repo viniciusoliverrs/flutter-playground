@@ -25,7 +25,6 @@
 // }
 
 import 'package:flutter/material.dart';
-
-import 'src/examples/carousel/carousel_view.dart';
+import 'package:flutter_playground/src/examples/carousel/carousel_view.dart';
 
 void main() => runApp(MaterialApp(home: CarouselView()));
