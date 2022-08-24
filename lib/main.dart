@@ -24,14 +24,11 @@
 //   runApp(const  App());
 // }
 
-
 // void main() => runApp(MaterialApp(home: CarouselView()));
 // void main() => runApp(const FormApp());
 
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/src/examples/expand-card/view/product_view.dart';
-
-import 'src/examples/provider/provider_app.dart';
+import 'package:flutter_playground/src/examples/progress_bar/progress_bar_view.dart';
 
 // void main() => runApp(ProviderApp());
-void main() => runApp(const MaterialApp(home: ProductView()));
+void main() => runApp(const MyApp());
